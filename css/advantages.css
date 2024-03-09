@@ -1,0 +1,81 @@
+.advantages{
+   background-image: url("/fonts/23.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.advantages2{
+   display: flex;
+   gap: 10px;
+   display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.stcard1{
+   display: flex;
+   flex-direction: column;
+   padding: 12px 12px 6px;
+   background: #0a0a0a;
+   box-shadow: 0 0 40px rgba(175, 16, 16, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+   border-radius: 26px;
+   flex: 1 0 300px;
+   max-width: 220px;
+   align-self: center;
+   border: 2px solid #c00e8b;
+   
+}
+
+.stcard1 img {
+   width: 100%;
+   height: 150px;
+
+   border-radius: 6px;
+
+   margin-bottom: 10px;
+
+
+
+
+}
+
+.wrapper{
+
+}
+
+.stcard1 img:hover {
+   -webkit-animation: rotation 0.5s  linear;
+
+}
+
+@-webkit-keyframes rotation {
+   from {
+           -webkit-transform: rotate(0deg);
+   }
+   to {
+           -webkit-transform: rotate(180deg);
+   }
+}
+
+.stcard1{
+   transition: 1s;
+
+}
+
+.stcard1:hover {
+   transform: scale(1.2);
+}
+
+
+.stcard1 .stcard-title1 {
+   margin: 6px 10px 10px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 10px;
+   line-height: 1.1;
+   color: #a18342;
+   text-align: center;
+}
+
